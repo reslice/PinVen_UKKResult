@@ -16,6 +16,7 @@
        echo $checkInventaris['jumlah'];
        if($checkInventaris['jumlah'] < $jumlah){
            alert("Stok di gudang Kurang!","../index.php");
+           die();
        }
        
        
